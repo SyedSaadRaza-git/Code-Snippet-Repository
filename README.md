@@ -29,6 +29,8 @@ PyMongo
 Regex (re module)
 BSON (ObjectId)
 Deployment: Render
+
+
 📁 Project Structure
 code-snippet-repo/
 │
@@ -41,6 +43,9 @@ code-snippet-repo/
 │   ├── index.html
 │   └── edit.html
 └── .gitignore
+
+
+
 ⚙️ Installation & Setup (Local)
 1. Clone repository
 git clone https://github.com/your-username/code-snippet-repo.git
