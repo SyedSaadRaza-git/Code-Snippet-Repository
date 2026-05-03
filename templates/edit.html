@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Snippet - Code Snippet Repository</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Edit Code Snippet</h1>
+
+    <form method="POST">
+        <input type="text" name="title" placeholder="Snippet Title" value="{{ snippet.title }}" required><br>
+        <textarea name="code" placeholder="Paste your code..." required>{{ snippet.code }}</textarea><br>
+        <button type="submit">Update Snippet</button>
+        <a href="{{ url_for('index') }}">Cancel</a>
+    </form>
+
+    <hr>
+</body>
+</html>

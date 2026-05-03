@@ -1,0 +1,169 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #007acc;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 14px;
+  resize: vertical;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button,
+.snippet-buttons a {
+  display: inline-block;
+  margin-top: 15px;
+  background: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+button:hover,
+.snippet-buttons a:hover {
+  background: #005f99;
+}
+
+.snippet-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.snippet {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  padding: 15px;
+  word-break: break-word;
+  position: relative;
+}
+
+.snippet-title {
+  font-weight: 700;
+  color: #007acc;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.snippet-category {
+  font-style: italic;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+pre {
+  background: #272822;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+/* Buttons inside each snippet */
+.snippet-buttons {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.snippet-buttons a {
+  background-color: #28a745;
+}
+
+.snippet-buttons a.delete {
+  background-color: #dc3545;
+}
+
+.snippet-buttons a:hover {
+  opacity: 0.9;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.search-container input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-container button {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background: #007acc;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-container button:hover {
+  background: #005f99;
+}
+
+.snippet-buttons .delete {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background: #007acc;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.snippet-buttons .delete:hover {
+  background :  #005f99;
+}
