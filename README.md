@@ -2,11 +2,6 @@
 
 A full-stack web application built with Flask and MongoDB that allows users to store, search, edit, and categorize programming code snippets efficiently using regex-based classification.
 
-🚀 Live Demo
-
-👉 (Add your Render link here after deployment)
-https://your-app.onrender.com
-
 🧠 Features
 ➕ Add code snippets with title and code
 🔍 Search snippets using keyword matching
@@ -58,11 +53,16 @@ venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 5. Run application
 python app.py
+
+
+
 🌐 Environment Variables
 
 Create a .env file (for local use):
 
 MONGO_URI=your_mongodb_atlas_connection_string
+
+
 🚀 Deployment (Render)
 Push project to GitHub
 Connect repository to Render
@@ -71,6 +71,8 @@ Build Command: pip install -r requirements.txt
 Start Command: gunicorn app:app
 Add Environment Variable:
 MONGO_URI
+
+
 📊 How It Works
 User adds a code snippet
 Regex analyzes code:
@@ -85,6 +87,8 @@ Users can search, edit, or delete snippets
 🌙 Dark mode UI
 📱 Mobile responsive design improvements
 🔗 REST API version
+
+
 👨‍💻 Author
 
 Syed Saad Raza
